@@ -16,7 +16,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding()
                 .foregroundColor(.red)
-                .background(.teal)
+                .background(.mint)
             
             Image(systemName: "figure.wave")
                 .resizable()
