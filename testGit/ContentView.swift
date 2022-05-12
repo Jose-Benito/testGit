@@ -15,7 +15,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .font(.largeTitle)
                 .padding()
-                .foregroundColor(.green)
+                .foregroundColor(.red)
                 .background(.teal)
             
             Image(systemName: "figure.wave")
