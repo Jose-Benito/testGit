@@ -14,8 +14,8 @@ struct ContentView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .font(.largeTitle)
             .padding()
-            .foregroundColor(.green)
-            .background(.red)
+            .foregroundColor(.blue)
+            .background(.black)
     }
 }
 
