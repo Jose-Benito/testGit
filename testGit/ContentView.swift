@@ -15,7 +15,7 @@ struct ContentView: View {
             .font(.largeTitle)
             .padding()
             .foregroundColor(.green)
-            .background(.teal)
+            .background(.red)
     }
 }
 
