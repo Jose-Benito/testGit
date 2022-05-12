@@ -10,12 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        Text("Hola, Mundo!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .font(.largeTitle)
-            .padding()
-            .foregroundColor(.green)
-            .background(.teal)
+        VStack {
+            Text("Hola, Mundo!")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .font(.largeTitle)
+                .padding()
+                .foregroundColor(.green)
+                .background(.teal)
+            
+            Image(systemName: "figure.wave")
+                .resizable()
+                .frame(width: 120, height: 250, alignment: .center)
+                .padding(5)
+        }
     }
 }
 
